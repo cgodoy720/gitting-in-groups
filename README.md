@@ -24,7 +24,9 @@ If there are no merge conflicts then everything should be up to date on this bra
 ## Handling merge conflicts
 Merge conflicts can be scary when you don't know which commands to use and you see an error message.
 When we have a merge conflict, it means that two separate codebases have different code that were are trying to merge into one.
-Git wants you to resolve each conflict one by one. It will show you in VSCode the `current changes` versus the `incoming changes` and ask you to choose which changes to keep. You can one or both of the changes. YOU MAY NEED TO FIX YOUR CODE SINCE SOME LINES MAY OVERWRITE OTHER LINES THAT WERE ALSO USED.
+Git wants you to resolve each conflict one by one. It will show you in VSCode the `current changes` versus the `incoming changes` and ask you to choose which changes to keep. You can one or both of the changes. 
+
+#### YOU MAY NEED TO FIX YOUR CODE SINCE SOME LINES MAY OVERWRITE OTHER LINES THAT WERE ALSO USED.
 
 That is why we rebased on the `feature-branch` first. If there are any conflicts, we'll resolve them here during our rebase and then we'll be good to go to rebase into our `main`.
 
