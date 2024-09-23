@@ -20,6 +20,8 @@ If there are no merge conflicts then everything should be up to date on this bra
 - Switch back to your `main` branch and run the rebase command to merge in the `feature-branch`: `git rebase feature-branch`
 - Now you can add, commit, and push.
 
+#### AFTER REBASING YOUR BRANCH INTO `main`, THE `feature-branch` SHOULD BE `DELETED`. YOU CAN CREATE A NEW BRANCH OFF OF `main/dev` 
+
 
 ## Handling merge conflicts
 Merge conflicts can be scary when you don't know which commands to use and you see an error message.
